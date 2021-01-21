@@ -13,5 +13,5 @@ RUN pip install -r requirements.txt
 #puerto por defecto para el contenedor
 EXPOSE 5000
 
-#comandos que se van a ejecutar, accion del contenedor al crearse, su finalidad
+#comandos que se van a ejecutar, accion del contenedor al crearse, su finalidad.
 CMD ["python", "main.py"]
